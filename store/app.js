@@ -22,3 +22,7 @@ function prevSlide() {
 }
 
 setInterval(nextSlide, 5000); // Scrolls right every 5 seconds
+
+function switchImage(imageSrc) {
+    document.getElementById('main-image').src = imageSrc;
+}
